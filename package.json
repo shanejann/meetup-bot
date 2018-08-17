@@ -1,14 +1,26 @@
 {
   "name": "meetup-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "## The story of a (Slack)bot",
+  "main": "lib/apps.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanejann/meetup-bot.git"
+  },
+  "keywords": [
+    "meetup-bot",
+    "bot"
+  ],
   "author": "Jake Geiser, Shane Jann",
   "license": "MIT",
-  "dependencies": {
-    "@slack/client": "^4.4.0"
-  }
+  "bugs": {
+    "url": "https://github.com/shanejann/meetup-bot/issues"
+  },
+  "homepage": "https://github.com/shanejann/meetup-bot#readme"
 }
