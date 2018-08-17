@@ -1,32 +1,14 @@
 {
-  "name": "meet-up-bot",
+  "name": "meetup-bot",
   "version": "1.0.0",
-  "description": "An app that posts meetup events within Slack",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shanejann/meetup-bot-app.git"
-  },
-  "keywords": [
-    "slack",
-    "bot"
-  ],
-  "author": "D.E. Goodman-Wilson",
+  "author": "Jake Geiser, Shane Jann",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shanejann/meetup-bot-app/issues"
-  },
-  "homepage": "https://github.com/shanejann/meetup-bot-app#readme",
-  "engines": {
-    "node": "5.1.1"
-  },
   "dependencies": {
-    "botkit": "0.2.2",
-    "botkit-storage-mongo": "^1.0.2",
-    "mongodb": "^1.4.39"
+    "@slack/client": "^4.4.0"
   }
 }
